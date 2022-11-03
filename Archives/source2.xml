@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+   <person>
+      <nombre>juan</nombre>
+      <ventas1>43</ventas1>
+      <ventas>89.37</ventas>
+   </person>
+   <person>
+      <nombre>jacob</nombre>
+      <ventas1>46.78</ventas1>
+      <ventas>10.67</ventas>
+   </person>
+   <person>
+      <nombre>mindy</nombre>
+      <ventas1>70</ventas1>
+      <ventas>137</ventas>
+   </person>
+   <person>
+      <nombre>sergio</nombre>
+      <ventas1>68</ventas1>
+      <ventas>124.14</ventas>
+   </person>
+</data>
