@@ -30,15 +30,15 @@ def extraer_de_xml(archivo_procesar):
 
 def extraer():
     df_list = []
-    for a_csv in glob.glob('./Archives/*.csv'):
+    for a_csv in glob.glob('./Archives/ventas/*.csv'):
         print(a_csv)
         df_list.append(extraer_de_csv(a_csv))
 
-    for a_json in glob.glob('./Archives/*.json'):
+    for a_json in glob.glob('./Archives/ventas/*.json'):
         print(a_json)
         df_list.append(extraer_de_json(a_json))
 
-    for a_xml in glob.glob('./Archives/*.xml'):
+    for a_xml in glob.glob('./Archives/ventas/*.xml'):
         print(a_xml)
         df_list.append(extraer_de_xml(a_xml))
 
